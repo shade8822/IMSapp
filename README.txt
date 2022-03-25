@@ -12,7 +12,7 @@ How it works:
 
 There is a database file that stores the book data.  That database is linked to this program.  The text fields in the data tab are sent to the database when the user creates a record, fills out that record, then clicks the save record button.  YOU MUST CREATE A RECORD BEFORE FILLING OUT THE TEXTBOXES IF YOU PLAN ON SAVING THE DATA IN THE TEXTBOX TO THE DATABASE.
 
-1.	 Click the create record button
+1.	Click the create record button
 2.	Fill out the record with the book information.  THE “Id” FIELD, ALSO KNOWN AS THE IDENTIFICATION NUMBER FIELD, MUST BE UNIQUE.  Primary keys must be not null, and unique for a database to function.  The program will close to prevent the user from violating database rules.  These numbers refer to separate books.  IT IS RECOMMENDED TO START WITH A NUMBER SUCH AS 10000001 AS THE FIRST BOOK’S ID NUMBER, SO THAT YOU CAN HAVE AN 8-BIT NUMBER AND THE NUMBER OF DIGITS ARE THE SAME FOR EVERY BOOK (NO TRAILING ZEROS TO DEAL WITH).  Using 8 digits will also allow for a robust book inventory without running out of 8-digit combinations.  SEE “Data Tab” ILLUSTRATION.
 3.	Press the save record icon.  The save button will update the database table so that the entered data will override the existing data.  
 
@@ -35,7 +35,6 @@ The user will enter their username in the username textbox and their password in
 Search Tab:
  
 The search tab is designed to search for titles, authors, genres, or ISBNs of books in the database.  The search fields are not case sensitive; however, they may need to be typed in the correct order to get a match.  For instance, the search result will come up with “Rice, Anne” if I type in “rice” then press the search button.  However, the record will not show if a user types “Anne” and clicks the search button, because I entered the last name first when I entered the record into the database.  The search box works well with case sensitivity, but it doesn’t function well with order of terms.  The user must use the search button that corresponds with the adjacent search textbox.  Only one search category can be searched at a time.  Any data in the fields outside of the current search field will be ignored. The user may try searching for “The Covenant” if “Covenant” doesn’t come up in a title search.
-
 
 Step 1: Fill in one of the fields.  Only the field near the clicked search button will be searched.
  
