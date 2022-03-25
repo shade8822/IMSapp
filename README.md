@@ -15,7 +15,7 @@ How it works:
 
 There is a database file that stores the book data.  That database is linked to this program.  The text fields in the data tab are sent to the database when the user creates a record, fills out that record, then clicks the save record button.  YOU MUST CREATE A RECORD BEFORE FILLING OUT THE TEXTBOXES IF YOU PLAN ON SAVING THE DATA IN THE TEXTBOX TO THE DATABASE.
 
-1.	 Click the create record button
+1.	Click the create record button
 2.	Fill out the record with the book information.  THE “Id” FIELD, ALSO KNOWN AS THE IDENTIFICATION NUMBER FIELD, MUST BE UNIQUE.  Primary keys must be not null, and unique for a database to function.  The program will close to prevent the user from violating database rules.  These numbers refer to separate books.  IT IS RECOMMENDED TO START WITH A NUMBER SUCH AS 10000001 AS THE FIRST BOOK’S ID NUMBER, SO THAT YOU CAN HAVE AN 8-BIT NUMBER AND THE NUMBER OF DIGITS ARE THE SAME FOR EVERY BOOK (NO TRAILING ZEROS TO DEAL WITH).  Using 8 digits will also allow for a robust book inventory without running out of 8-digit combinations.  SEE “Data Tab” ILLUSTRATION.
 3.	Press the save record icon.  The save button will update the database table so that the entered data will override the existing data.  
 
