@@ -4,9 +4,9 @@ Purpose:
 
 The IMS app or Inventory Management App is designed to store an inventory of books.  The user will login, add books to the database using the “Data” tab, then search the database using the “Search” tab. 
  
-Installation:
+Installation/Removal Instructions:
 
-Double-click the setup.exe file to install the necessary components for the program to operate correctly.  The program may run after the installation of the Microsoft SQL software bundle.  The first application window that the user will see is a login page. A shortcut will be added to the desktop to access the program.  The shortcut may be moved. 
+Double-click the setup.exe file to install the necessary components for the program to operate correctly.  The program may run after the installation of the Microsoft SQL software bundle.  The first application window that the user will see is a login page. A shortcut will be added to the desktop to access the program.  The shortcut may be moved. Uninstall like a normal program: Add/Remove Program > select "IMS" > Uninstall > OK.
 
 How it works:
 
