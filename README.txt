@@ -6,7 +6,7 @@ The IMS app or Inventory Management App is designed to store an inventory of boo
  
 Installation:
 
-Double-click the setup.exe file to install the necessary components for the program to operate correctly.  The program may run after the installation of the Microsoft SQL software bundle.  The first application window that the user will see is a login page.  
+Double-click the setup.exe file to install the necessary components for the program to operate correctly.  The program may run after the installation of the Microsoft SQL software bundle.  The first application window that the user will see is a login page. A shortcut will be added to the desktop to access the program.  The shortcut may be moved. 
 
 How it works:
 
